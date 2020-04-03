@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import api from '../../../services/api';
-import { Link } from 'react-router-dom';
 
 import './styles.css';
 
@@ -20,14 +19,13 @@ export default class Main extends Component {
         
     }
 
-
     render() {
         return (
-            <div className='bands-list'>
+            <div className='characters-list'>
                 {this.state.characters.map(character => (
                     <article key={character.char_id}>
-                        <div className='band-image'>
-                            <img src={character.img} />  
+                        <div className='character-image'>
+                            <img src={character.img} alt="breaking-bad" />  
                             </div>  
                         <strong>{character.name}</strong>  
                         <p>Birthday: {character.birthday}</p> 
@@ -35,10 +33,7 @@ export default class Main extends Component {
                         <p>Nickname: {character.nickname}</p>
                         <p>Status:</p>
                         <p className="alertSpoiler">Spoiler alert!! Pass cursor down here to unlock ;)</p>
-                        
                         <p className="spoiler">{character.status}</p>
-                        {/* <Link to={`/characters/${character.char_id}`}>Read more</Link> */}
-                        
                     </article>
                 ))}
             </div>

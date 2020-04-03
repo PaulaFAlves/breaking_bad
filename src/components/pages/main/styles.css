@@ -1,25 +1,26 @@
-.bands-list {
+.characters-list {
     max-width: 500px;
     max-height: 600px;
     margin: 0 auto 0;
     padding: 0 20px;
 }
-.bands-list article {
+.characters-list article {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 10px 50px 10px;
     margin-top: 80px;
+    margin-bottom: 10px;
     box-shadow: 1px 3px 5px 2px #151515;
     -moz-box-shadow: 1px 3px 5px 2px #151515;
     -webkit-box-shadow: 1px 3px 5px 2px #151515;
     -o-box-shadow: 1px 3px 5px 2px #151515;
 }
-.bands-list article + article{
+.characters-list article + article{
     margin-top: 20px;
 }
 
-.bands-list article strong {
+.characters-list article strong {
     font-size: 30px;
     font-weight: bold;
     display: flex;
@@ -27,14 +28,14 @@
     align-items: center;
     margin: 20px;
 }
-.bands-list article p {
+.characters-list article p {
     font-size: 16;
     color: #151515;
     margin-top: 5px;
     margin-bottom: 5px;
     line-height: 17px;
 }
-.bands-list article a {
+.characters-list article a {
     height: 20px;
     border-radius: 5px;
     border: 2px solid #151515;
@@ -49,18 +50,18 @@
     align-items: center;
     transition: all 0.2s;
 }
-.bands-list article a:hover {
+.characters-list article a:hover {
     background: #151515;
     color: #fff;
 }
-.bands-list input {
+.characters-list input {
     margin: 10px;
     border: none;
     font-size: 14px;
     width: 635px;
     max-width: 635px;
 }
-.bands-list a {
+.characters-list a {
     height: 20px;
     border-radius: 5px;
     border: 2px solid #151515;
@@ -75,17 +76,17 @@
     align-items: center;
     transition: all 0.2s;
 }
-.bands-list a:hover {
+.characters-list a:hover {
     background: #fff;
     color: #151515;
     cursor: pointer;
 }
-.bands-list .band-image {
+.characters-list .character-image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.band-image img {
+.character-image img {
     width: 200px;
     height: auto;
     border-radius: 3%;
