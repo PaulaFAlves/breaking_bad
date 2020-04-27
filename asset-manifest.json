@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/breaking_bad/static/css/main.74ede34f.chunk.css",
+    "main.js": "/breaking_bad/static/js/main.7eb20281.chunk.js",
+    "main.js.map": "/breaking_bad/static/js/main.7eb20281.chunk.js.map",
+    "runtime-main.js": "/breaking_bad/static/js/runtime-main.4d22b85c.js",
+    "runtime-main.js.map": "/breaking_bad/static/js/runtime-main.4d22b85c.js.map",
+    "static/js/2.b84cc017.chunk.js": "/breaking_bad/static/js/2.b84cc017.chunk.js",
+    "static/js/2.b84cc017.chunk.js.map": "/breaking_bad/static/js/2.b84cc017.chunk.js.map",
+    "index.html": "/breaking_bad/index.html",
+    "precache-manifest.7a39d2501a5bb510b0257772740f95b7.js": "/breaking_bad/precache-manifest.7a39d2501a5bb510b0257772740f95b7.js",
+    "service-worker.js": "/breaking_bad/service-worker.js",
+    "static/css/main.74ede34f.chunk.css.map": "/breaking_bad/static/css/main.74ede34f.chunk.css.map",
+    "static/js/2.b84cc017.chunk.js.LICENSE.txt": "/breaking_bad/static/js/2.b84cc017.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/breaking_bad/static/media/backgroung.c76dcac2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d22b85c.js",
+    "static/js/2.b84cc017.chunk.js",
+    "static/css/main.74ede34f.chunk.css",
+    "static/js/main.7eb20281.chunk.js"
+  ]
+}
